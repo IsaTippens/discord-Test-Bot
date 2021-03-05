@@ -27,7 +27,5 @@ client.on('ready', () => {
 // // https://discordapp.com/developers/applications/
 // Click on your application -> Bot -> Token -> "Click to Reveal Token"
 
-bot_secret_token = "ODE3MzM1NzE1OTkzNzQ3NDY3.YEIBNA.lpCTaWskq7yqAl11wQ0HOB-VbMs"
 
-
-client.login(bot_secret_token)
+client.login(process.env.DISCORD_TOKEN)
