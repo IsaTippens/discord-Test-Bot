@@ -1,0 +1,27 @@
+{
+  "name": "my_discord_bot",
+  "version": "1.0.0",
+  "description": "\"# discord-Test-Bot\"",
+  "main": "tutorial.js",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha",
+    "start":"node tutorial.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ammaar345/discord-Test-Bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ammaar345/discord-Test-Bot/issues"
+  },
+  "homepage": "https://github.com/ammaar345/discord-Test-Bot#readme"
+}
