@@ -7,10 +7,11 @@ client.on('ready', () => {
 
     // client.user.setStatus('idle')
     // bot.user.setStatus('available')
-    client.user.setActivity("how to hang yourself.", {
-        type: 'STREAMING',
-        url:'https://stream.twitch.tv/ingests/'
-    });
+    // client.user.setActivity("how to hang yourself.", {
+    //     type: 'STREAMING',
+    //     url:'https://stream.twitch.tv/ingests/'
+    // });
+    
     console.log(`${client.user.tag} has logged in.`)
 });
 
@@ -89,6 +90,7 @@ client.on('message', async (message) => {
     //     // message.reply(' Hi there!')
     //     message.channel.send("hello")
     // }
+   
 })
 
 
