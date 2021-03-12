@@ -5,6 +5,7 @@ const client = new Client({
 require('dotenv').config();
 const webHookClient = new WebhookClient(process.env.WEBHOOK_ID,
     process.env.WEBHOOK_TOKEN)
+    // .listen(process.env.PORT || 5000)
 // const DiscordRPC = require('discord-rpc');
 // const config = require('./config.json');
 // const rpc = new DiscordRPC.Client({
